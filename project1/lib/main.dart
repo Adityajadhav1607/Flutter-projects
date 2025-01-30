@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:project1/assignment1.dart';
+import 'package:project1/assignment2.dart';
+import 'package:project1/assignment3.dart';
+import 'package:project1/assignment4.dart';
+import 'package:project1/assignment5.dart';
+import 'package:project1/assignment6.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -10,26 +16,6 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Column(
-            children: [
-              Container(
-                height: 100,
-                width: 100,
-                color: Colors.amber,
-              ),
-              Container(
-                height: 100,
-                width: 100,
-                color: Colors.red,
-              )
-            ],
-          ),
-        ),
-      ),
-    );
+    return Assignment6();
   }
 }
-
